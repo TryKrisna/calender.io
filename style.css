@@ -1,0 +1,92 @@
+.container{
+    height: 100vh;
+    text-align: center;
+    margin: 50px 120px;
+}
+
+table{
+    width: 100%;
+      
+}
+
+
+.tb_header:first-child{
+    background-color: #e13651;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+ }
+
+.tb_header:first-child h2{
+    margin: 8px 0px;
+    
+}
+
+
+.tb_header:nth-child(2){
+    height: 50px;
+    background-color:#5a1313;
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+}   
+
+
+
+table tr .box .day{
+    position: absolute;
+    top:0;
+    margin: 0;
+    font-size: 15px;
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.box{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    background: #fff2da;
+    transition: 0.5s;
+}
+
+.box:hover{
+    background-color: #2e87c6d7;
+}
+.box:hover .day{
+    color:#fffb00;
+}
+
+
+
+.end_month{
+    background-color: 
+    #f5deb3;
+}
+
+.bg-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.relax-day{
+    color: red;
+}
+
+.bor-box{
+   border: solid 2px red;
+   background-color: #ffc2c2;
+}
+.box .txt{
+    text-align:left;
+    align-items: center;
+    font-weight: bold;
+    color: red;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.txt p{
+    text-align: center;
+}
